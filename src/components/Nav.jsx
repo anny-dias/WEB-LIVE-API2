@@ -19,6 +19,9 @@ function Nav() {
             <Link to="/listarAlunos" className="tlink">
               Listar Alunos
             </Link>
+            <Link to="/estatistica" className="tlink">
+              Estatística
+            </Link>
           </ul>
         </nav>
       </header>

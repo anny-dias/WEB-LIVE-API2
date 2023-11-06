@@ -8,6 +8,7 @@ import Escola from './routers/Escola.jsx';
 import StyloGeral from './css/estiloGlobal.jsx';
 import ListarAlunos from './routers/ListarAlunos.jsx'
 import Alunos from './routers/Alunos.jsx';
+import Estatistica from './routers/Estatistica.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: '/listaralunos', element: <ListarAlunos /> },
       { path: '/incluir', element: <Alunos /> },
       { path: '/editar/:id', element: <Alunos /> },
+      { path: '/estatistica', element: <Estatistica /> },
     ],
   },
 ]);
